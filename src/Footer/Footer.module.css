@@ -1,0 +1,23 @@
+.footer {
+    height: 20em;
+    background-color: gray;
+}
+
+.footerContainer {
+    flex-direction: column;
+}
+
+.socialNetworks {
+    width: 400px;
+    height: 40px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.socialNetwork {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+}

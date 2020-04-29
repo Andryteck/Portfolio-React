@@ -1,0 +1,9 @@
+.remoteJob {
+    height: 22rem;
+    background-color: aqua;
+}
+.projectsContainer{
+    justify-content: space-between;
+    flex-direction: column;
+
+}

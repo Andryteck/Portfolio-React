@@ -1,0 +1,24 @@
+.contactForm {
+height: 100vh;
+}
+
+input {
+    width: 10rem;
+    background-color: wheat;
+    margin-top: 30px;
+
+}
+textarea {
+    background-color: #99d0fb;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.contactFormContainer {
+    justify-content: space-around;
+    flex-direction: column;
+}
