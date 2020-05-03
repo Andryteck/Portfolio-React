@@ -18,3 +18,10 @@
 .description {
 
 }
+
+@media (max-width: 425px) {
+    .skill {
+        margin: 35px;
+    }
+
+}

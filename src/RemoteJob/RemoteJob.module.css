@@ -1,6 +1,7 @@
 .remoteJob {
     height: 22rem;
     background-color: aqua;
+    width: 100%;
 }
 .projectsContainer{
     justify-content: space-between;

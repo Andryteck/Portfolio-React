@@ -8,7 +8,9 @@ function RemoteJob() {
     return (
     <div className={style.remoteJob}>
         <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-            <h2 className={styleTitle.title}>consider options for remote work</h2>
+            <div className={styleTitle.moduleHeader}>
+                <h2 className={styleTitle.title}>consider options for remote work</h2>
+            </div>
         <Button title={'Hire me'}/>
         </div>
     </div>

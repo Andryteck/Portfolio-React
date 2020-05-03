@@ -15,7 +15,6 @@ function Footer() {
                  <div className={style.socialNetwork}></div>
                  <div className={style.socialNetwork}></div>
              </div>
-
              <span>© 2012 beingeorge, All Rights Reserved.</span>
          </div>
         </div>

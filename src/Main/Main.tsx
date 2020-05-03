@@ -9,11 +9,11 @@ function Main() {
             <div className={styleContainer.container}>
         <div className={style.text}>
             <span>Hi there</span>
-            <h1>I am
+            <h1>I am &nbsp;
                 <span>Andrei Kulik</span>
             </h1>
             <p>
-                A
+                A&nbsp;
                 <span>Frontend developer</span>
                 <span>|</span>
             </p>

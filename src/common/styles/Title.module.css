@@ -1,3 +1,8 @@
 .title {
     background-color: gray;
+    padding-top: 45px;
+}
+
+.moduleHeader {
+    margin: 0 auto 30px;
 }

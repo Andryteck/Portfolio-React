@@ -1,6 +1,7 @@
 .footer {
     height: 20em;
     background-color: gray;
+    width: 100%;
 }
 
 .footerContainer {
@@ -20,4 +21,10 @@
     width: 40px;
     height: 40px;
     background-color: yellow;
+}
+
+@media (max-width: 425px) {
+    .socialNetworks {
+        width: 245px;
+    }
 }

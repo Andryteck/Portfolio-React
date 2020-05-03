@@ -9,7 +9,9 @@ function Projects() {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <h2 className={styleTitle.title}>Projects</h2>
+               <div className={styleTitle.moduleHeader}>
+                   <h2 className={styleTitle.title}>Projects</h2>
+               </div>
                 <div className={style.projects}>
                 <Project title={'Project'} description={'lorem ipsum bla bla bal'}/>
                 <Project title={'Project'} description={'lorem ipsum bla bla bal'}/>

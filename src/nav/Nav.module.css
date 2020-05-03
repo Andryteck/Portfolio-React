@@ -3,6 +3,7 @@
     width: 300px;
     display: flex;
     justify-content: space-evenly;
+    margin-right: 10%;
 }
 a {
     margin-left: 10px;

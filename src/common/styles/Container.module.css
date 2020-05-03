@@ -8,3 +8,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 425px) {
+    .container {
+        justify-content: center;
+        border: 0;
+
+    }
+}
+
