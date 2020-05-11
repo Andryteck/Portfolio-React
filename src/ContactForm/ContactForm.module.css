@@ -1,25 +1,36 @@
 .contactForm {
-    height: 100vh;
+    height: 35rem;
     width: 100%;
 }
 
 input {
-    width: 10rem;
+    width: 20rem;
+    height: 3em;
     background-color: wheat;
-    margin-top: 30px;
 
+}
+.emailInput {
+    margin-top: 20px;
 }
 textarea {
     background-color: #99d0fb;
-    margin-top: 30px;
+    margin-top: 20px;
+    height: 11em;
 }
 
 form {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    border: 1px solid;
 }
 .contactFormContainer {
     justify-content: space-around;
     flex-direction: column;
+}
+
+@media (max-width:425px) {
+    .contactFormContainer {
+        justify-content: flex-start;
+    }
 }

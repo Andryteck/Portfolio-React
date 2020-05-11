@@ -16,7 +16,7 @@ function Skills() {
              <h2 className={styleTitle.title}>Skills</h2>
          </div>
           <div className={style.skills}>
-              <Skill title={'Javascript'} description={'lorem ipsum bla bla'}/>
+              <Skill title={'Javascript'} description={'lorem ipsum bla blalorem ipsum bla bla'}/>
               <Skill title={'Typescript'}  description={'lorem ipsum bla bla'}/>
               <Skill title={'HTML'}  description={'lorem ipsum bla bla'}/>
               <Skill title={'CSS'}  description={'lorem ipsum bla bla'}/>
