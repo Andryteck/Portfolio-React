@@ -17,8 +17,15 @@
 }
 
 @media (max-width: 425px) {
+    .skillsBlock {
+        height: 100%;
+    }
     .skills {
         margin-top: 35px;
+
+    }
+    .skillsContainer {
+        flex-wrap: nowrap;
     }
 
 }
