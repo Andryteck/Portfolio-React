@@ -8,6 +8,7 @@ type propsType = {
 }
 
 function Skill(props:propsType) {
+
     return (
       <div className={style.skill}>
          <div className={style.icon}></div>

@@ -1,9 +1,15 @@
 .mainBlock {
     height: 100vh;
-    background-color: greenyellow;
+    background-color: #111;
     width: 100%;
 }
-
+.homeArea {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 34px;
+}
 .text {
 
 }
@@ -12,6 +18,12 @@
     height: 400px;
     background-color: black;
 }
+
+/*@media (max-width: 1078px) {*/
+/*    .mainBlock .container {*/
+/*        justify-content: center;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 425px) {
     .mainBlock {

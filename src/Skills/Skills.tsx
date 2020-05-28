@@ -2,7 +2,8 @@ import React from 'react';
 import style from './Skills.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./Skill/Skill";
-import styleTitle from '../common/styles/Title.module.css'
+import styleTitle from '../common/Title/Title.module.css'
+import Title from "../common/Title/Title";
 
 type propsType = {
     title: string
@@ -13,7 +14,7 @@ function Skills() {
      <div className={style.skillsBlock}>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
          <div className={styleTitle.moduleHeader}>
-             <h2 className={styleTitle.title}>Skills</h2>
+             <Title title={'Skills'}/>
          </div>
           <div className={style.skills}>
               <Skill title={'Javascript'} description={'lorem ipsum bla bla'}/>

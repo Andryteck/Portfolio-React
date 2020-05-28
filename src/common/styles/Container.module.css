@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+@media (max-width: 1078px) {
+        .container {
+            justify-content: center;
+        }
+    }
 @media (max-width: 425px) {
     .container {
         justify-content: center;
