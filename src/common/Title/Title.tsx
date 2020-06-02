@@ -1,5 +1,5 @@
-import style from "../../MyProjects/Projects.module.css";
-import styleTitle from '../Title/Title.module.css'
+import style from "../../MyProjects/Projects.module.scss";
+import styleTitle from './Title.module.scss'
 import React from "react";
 
 
@@ -9,9 +9,9 @@ type PropsType = {
 
 function Title(props: PropsType) {
     return (
-        <div>
+        <div className={styleTitle.moduleHeader}>
             <h2 className={styleTitle.title}>{props.title}</h2>
-            <div className={style.moduleLine}></div>
+            <div className={styleTitle.moduleLine}></div>
         </div>
     )
 }

@@ -1,0 +1,36 @@
+.projectsBlock {
+  min-height: 100vh;
+  background-color: #1f1f20;
+  width: 100%;
+  @media (max-width: 425px) {
+    height: 100%;
+  }
+
+  .projectsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    @media (max-width: 425px) {
+      flex-wrap: nowrap;
+    }
+
+    .projects {
+      border: 1px solid;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+    }
+
+  }
+}
+
+//.moduleLine {
+//  background: #4e93e6;
+//  width: 55px;
+//  height: 1px;
+//  margin: 30px auto;
+//}
+
+

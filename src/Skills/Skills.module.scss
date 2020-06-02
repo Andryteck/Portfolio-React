@@ -1,0 +1,34 @@
+.skillsBlock {
+    background-color: #1f1f20;
+}
+.skillsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.skills {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.moduleLine {
+
+}
+
+@media (max-width: 425px) {
+    .skillsBlock {
+        height: 100%;
+    }
+    .skills {
+        margin-top: 35px;
+
+    }
+    .skillsContainer {
+        flex-wrap: nowrap;
+    }
+
+}

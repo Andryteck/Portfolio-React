@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './RemoteJob.module.css'
 import styleContainer from '../common/styles/Container.module.css'
-import styleTitle from '../common/Title/Title.module.css'
+import styleTitle from '../common/Title/Title.module.scss'
 import Button from "../common/Button/Button";
 import Title from "../common/Title/Title";
 

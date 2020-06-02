@@ -1,0 +1,48 @@
+.skill {
+  width: 250px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #252527;
+}
+
+.icon {
+  margin-top: 20px;
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transform: rotate(45deg);
+
+}
+.skillInfo {
+  padding: 40px;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 0 0 15px;
+  padding: 0;
+  letter-spacing: 1px;
+  font: 400 16px/1.2 'Josefin Sans', sans-serif;
+  color: #fff !important;
+}
+
+.description {
+  font: 400 12px/1.8 'Poppins', sans-serif;
+  color: #fff !important;
+}
+
+@media (max-width: 425px) {
+  .skill {
+    margin: 35px;
+  }
+
+}

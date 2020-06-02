@@ -4,4 +4,6 @@
     background-color: transparent;
     color: #f0d8d9;
     border: 1px solid #f0d8d9;
+    position: relative;
+    z-index: 10;
 }
