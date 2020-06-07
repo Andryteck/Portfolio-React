@@ -1,17 +1,26 @@
 .footer {
     height: 20em;
-    background-color: gray;
+    background-color: #252527;
     width: 100%;
 }
 
 .footerContainer {
     flex-direction: column;
+    justify-content: space-around;
+}
+.title {
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .socialNetworks {
     width: 400px;
     height: 40px;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
 
@@ -20,7 +29,12 @@
 .socialNetwork {
     width: 40px;
     height: 40px;
-    background-color: yellow;
+    background-size: cover;
+    background-position: center;
+}
+.copyright {
+    margin: 0;
+    color: rgba(255, 255, 255, .5);
 }
 
 @media (max-width: 425px) {

@@ -8,9 +8,9 @@ function Main() {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
         <div className={style.text}>
-            <span>Hi there</span>
-            <h1 className={style.homeArea}>I am &nbsp;
-                <span>Andrei Kulik</span>
+            <span className={style.subTitle}>Hi there</span>
+            <h1 className={style.homeArea}>I am <br />
+                <span className={style.name}>Andrei Kulik</span>
             </h1>
             <p>
                 A&nbsp;

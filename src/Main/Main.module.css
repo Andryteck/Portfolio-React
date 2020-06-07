@@ -5,13 +5,40 @@
 }
 .homeArea {
     color: #fff;
-    font-size: 70px;
-    font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 34px;
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+}
+.name {
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+}
+.name::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background: #4e93e6;
 }
 .text {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p {
+    color: white
+}
+p span {
+    color: white;
+}
+.subTitle {
+    font-size: 16px;
+    color: #fff;
+    font: 400 14px/1.8 'Poppins', sans-serif;
 }
 .photo {
     width: 300px;

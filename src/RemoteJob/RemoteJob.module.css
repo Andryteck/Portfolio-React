@@ -1,10 +1,11 @@
 .remoteJob {
-    height: 22rem;
-    background-color: aqua;
+    height: 30rem;
+    background: #252527;
     width: 100%;
 }
 .projectsContainer{
     justify-content: space-between;
     flex-direction: column;
+    padding: 100px 0;
 
 }
