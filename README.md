@@ -1,1 +1,1 @@
-[deploy project](https://andryteck.github.io/portfolio-react/)
+[deploy project](https://Andryteck.github.io/portfolio-react)
