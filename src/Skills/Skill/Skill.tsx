@@ -8,6 +8,8 @@ type propsType = {
     style?: {
         color: string,
         backgroundImage: string
+        width: string
+        height: string
     }
 }
 
@@ -15,7 +17,9 @@ function Skill(props: propsType) {
 
     return (
         <div className={style.skill}>
-            <div className={style.icon} style={props.style}></div>
+            <div className={style.icon}>
+                <div style={props.style}></div>
+            </div>
             <div className={style.skillInfo}>
                 <h3 className={style.title}>{props.title}</h3>
                 <span className={style.description}>{props.description}</span>

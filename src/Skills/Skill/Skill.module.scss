@@ -9,17 +9,19 @@
 }
 
 .icon {
-  margin-top: 20px;
-  width: 90px;
-  height: 90px;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
+  color: #4e93e6;
+  height: 80px;
+  width: 80px;
+  margin: 20px auto 30px;
+  background: rgba(255,255,255,0.1);
+  display: block;
+  line-height: 80px;
+  font-size: 30px;
+  box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
+  text-align: center;
+  transform: rotate(45deg);
+  transform-origin: center;
   position: relative;
-  transform: rotate(45deg)
 
 }
 .skillInfo {

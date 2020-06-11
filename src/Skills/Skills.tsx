@@ -7,28 +7,44 @@ import Title from "../common/Title/Title";
 import ProjectImg from "../assets/image/ProjectImg.png";
 
 
-
 function Skills() {
     const tech = {
         color: 'blue',
         backgroundImage: 'url(' + ProjectImg + ')',
-    };
- return (
-     <div className={style.skillsBlock}>
-      <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-         <div className={styleTitle.moduleHeader}>
-             <Title title={'Skills'}/>
-         </div>
-          <div className={style.skills}>
-              <Skill title={'Javascript'} description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'} style={tech}/>
-              <Skill title={'Typescript'}  description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'} style={tech}/>
-              <Skill title={'HTML'}  description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'} style={tech}/>
-              <Skill title={'CSS'}  description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'} style={tech}/>
-              </div>
-          </div>
-      </div>
+        width: '45px',
+        height: '45px',
+        transform: 'rotate(-45deg)',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'repeat',
+        backgroundSize: 'cover',
+        position: 'absolute',
+        top: '18px',
+        left: '17px'
+    }
+    return (
+        <div className={style.skillsBlock}>
+            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                <div className={styleTitle.moduleHeader}>
+                    <Title title={'Skills'}/>
+                </div>
+                <div className={style.skills}>
+                    <Skill title={'Javascript'}
+                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           style={tech}/>
+                    <Skill title={'Typescript'}
+                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           style={tech}/>
+                    <Skill title={'HTML'}
+                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           style={tech}/>
+                    <Skill title={'CSS'}
+                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           style={tech}/>
+                </div>
+            </div>
+        </div>
 
- )
+    )
 }
 
 export default Skills
