@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import style from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./Skill/Skill";
@@ -7,7 +7,14 @@ import Title from "../common/Title/Title";
 import ProjectImg from "../assets/image/ProjectImg.png";
 
 
-function Skills() {
+type PropsType = {
+    skillsRef: any
+}
+
+
+
+function Skills(props: PropsType) {
+
     const tech = {
         color: 'blue',
         backgroundImage: 'url(' + ProjectImg + ')',
@@ -22,7 +29,7 @@ function Skills() {
         left: '17px'
     }
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} ref={props.skillsRef}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <div className={styleTitle.moduleHeader}>
                     <Title title={'Skills'}/>

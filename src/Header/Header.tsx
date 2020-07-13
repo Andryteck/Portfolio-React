@@ -1,11 +1,14 @@
 import React from 'react';
-import  style from './Header.module.css'
+import style from './Header.module.css'
 import Nav from "../nav/Nav";
 
-function Header() {
+function Header(props: any) {
     return (
         <div className={style.header}>
-          <Nav />
+            <Nav skills={props.skills}
+                 main={props.main}
+                 projects={props.projects}
+                 contacts={props.contacts}/>
         </div>
     );
 }

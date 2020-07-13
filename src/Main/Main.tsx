@@ -3,7 +3,13 @@ import style from './Main.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import Typist from 'react-typist';
 
-function Main() {
+
+type PropsType = {
+    mainRef: any
+}
+
+
+function Main(props: PropsType) {
     const [count, setCount] = useState<number>(1);
 
     useEffect(() => {
@@ -12,7 +18,7 @@ function Main() {
     }, [count]);
 
     return (
-        <div className={style.mainBlock}>
+        <div className={style.mainBlock} ref={props.mainRef}>
             <div className={styleContainer.container}>
                 <div className={style.text}>
                     <span className={style.subTitle}>Hi there</span>

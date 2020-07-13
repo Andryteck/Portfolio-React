@@ -6,8 +6,12 @@ import Project from "./Project/Project";
 import Title from '../common/Title/Title';
 import ProjectImg from '../assets/image/ProjectImg.png';
 
+type PropsType = {
+    projectsRef:any
+}
 
-function Projects() {
+
+function Projects(props: PropsType) {
     const social = {
         color: 'blue',
         backgroundImage: 'url(' + ProjectImg + ')',
@@ -17,7 +21,7 @@ function Projects() {
     //     backgroundImage: 'url(' + imgUrl + ')',
     // };
     return (
-        <div className={style.projectsBlock}>
+        <div className={style.projectsBlock} ref={props.projectsRef}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title title={'Projects'}/>
                 <div className={style.projects}>
