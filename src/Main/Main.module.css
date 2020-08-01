@@ -54,7 +54,7 @@ p span {
 
 @media (max-width: 425px) {
     .mainBlock {
-        height: auto;
+        height: 100%;
         padding: 100px 0;
     }
     .photo {
@@ -62,7 +62,6 @@ p span {
     }
 
     .text {
-        margin-right: 50%;
         margin-bottom: 50px;
         display: flex;
         flex-direction: column;

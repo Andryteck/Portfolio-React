@@ -16,5 +16,9 @@
 @media (max-width: 425px) {
    .nav {
        margin-right: 0%;
+
    }
+    .nav a {
+        margin-left: 0%;
+    }
 }
