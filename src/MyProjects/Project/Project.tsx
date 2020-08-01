@@ -9,13 +9,17 @@ type propsType = {
         color: string,
         backgroundImage: string
     }
+    social: any
+    link: string
+
 }
 
 function Project(props: propsType) {
+
     return (
         <div className={style.project}>
             <div className={style.projectsImage} style={props.style}>
-                <Button title={'Look'}/>
+                <a href={props.link}><Button title={'look'}/> </a>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle}>{props.title}</h3>

@@ -27,7 +27,7 @@ function App() {
 //     useMountEffect(() => scrollToRef(myRef1))
 
 
-    debugger
+
     return (
         //<HashRouter>
         <div className="App">

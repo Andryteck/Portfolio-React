@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     margin-right: 16%;
 }
-a {
+.nav a {
     margin-left: 50px;
     color: #e6e6e6;
     font-size: 20px;

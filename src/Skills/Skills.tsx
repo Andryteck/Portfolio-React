@@ -4,7 +4,12 @@ import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./Skill/Skill";
 import styleTitle from '../common/Title/Title.module.scss'
 import Title from "../common/Title/Title";
-import ProjectImg from "../assets/image/ProjectImg.png";
+import JavaScript from "../assets/image/JavaScript-logo.png";
+import Typescript from "../assets/image/typescript.svg";
+import Html from "../assets/image/html.png";
+import Css from "../assets/image/css.png";
+import ReactLogo from "../assets/image/react.png";
+import Redux from "../assets/image/redux.jpg";
 
 
 type PropsType = {
@@ -12,22 +17,29 @@ type PropsType = {
 }
 
 
-
 function Skills(props: PropsType) {
-
-    const tech = {
-        color: 'blue',
-        backgroundImage: 'url(' + ProjectImg + ')',
-        width: '45px',
-        height: '45px',
-        transform: 'rotate(-45deg)',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'repeat',
-        backgroundSize: 'cover',
-        position: 'absolute',
-        top: '18px',
-        left: '17px'
+    const createObject = (obj: any) => {
+        return {
+            color: 'blue',
+            backgroundImage: 'url(' + obj + ')',
+            width: '45px',
+            height: '45px',
+            transform: 'rotate(-45deg)',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'repeat',
+            backgroundSize: 'cover',
+            position: 'absolute',
+            top: '18px',
+            left: '17px'
+        }
     }
+
+    const js = createObject(JavaScript)
+    const typescript = createObject(Typescript)
+    const html = createObject(Html)
+    const css = createObject(Css)
+    const react = createObject(ReactLogo)
+    const redux = createObject(Redux)
     return (
         <div className={style.skillsBlock} ref={props.skillsRef}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
@@ -37,16 +49,22 @@ function Skills(props: PropsType) {
                 <div className={style.skills}>
                     <Skill title={'Javascript'}
                            description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
-                           style={tech}/>
+                           style={js}/>
                     <Skill title={'Typescript'}
                            description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
-                           style={tech}/>
+                           style={typescript}/>
                     <Skill title={'HTML'}
                            description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
-                           style={tech}/>
+                           style={html}/>
                     <Skill title={'CSS'}
                            description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
-                           style={tech}/>
+                           style={css}/>
+                    <Skill title={'REACT'}
+                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           style={react}/>
+                    <Skill title={'REDUX'}
+                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           style={redux}/>
                 </div>
             </div>
         </div>
