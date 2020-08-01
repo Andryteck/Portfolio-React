@@ -34,14 +34,14 @@ function Projects(props: PropsType) {
             backgroundImage: 'url(' + socialNetwork + ')'
         },
         description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-        link: "https://andryteck.github.io/react-way-of-samurai"
+        link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }, {
         title: 'Todolist', action: redirectToTodolist,
         social: {
             color: 'blue',
             backgroundImage: 'url(' + socialNetwork + ')'
         }, description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-        link: "https://andryteck.github.io/react-way-of-samurai"
+        link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }, {
         title: 'New', action: redirectToTodolist,
         social: {
@@ -49,7 +49,7 @@ function Projects(props: PropsType) {
             backgroundImage: 'url(' + socialNetwork + ')'
         },
         description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-        link: "https://andryteck.github.io/react-way-of-samurai"
+        link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }
     ]
     return (
