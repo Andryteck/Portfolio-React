@@ -5,7 +5,8 @@ import styleTitle from '../common/Title/Title.module.scss'
 import Project from "./Project/Project";
 import Title from '../common/Title/Title';
 import socialNetwork from '../assets/image/SocialNetworkProject.png';
-import {Redirect} from 'react-router-dom';
+import singolo from '../assets/image/singolo.jpg';
+
 
 type PropsType = {
     projectsRef: any
@@ -46,10 +47,10 @@ function Projects(props: PropsType) {
         title: 'New', action: redirectToTodolist,
         social: {
             color: 'blue',
-            backgroundImage: 'url(' + socialNetwork + ')'
+            backgroundImage: 'url(' + singolo + ')'
         },
         description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-        link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
+        link: "https://singolo-kulik.netlify.app/"
     }
     ]
     return (

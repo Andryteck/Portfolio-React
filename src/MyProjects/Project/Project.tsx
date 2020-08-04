@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {FocusEventHandler, useState} from 'react';
 import style from './Project.module.scss'
 import Button from "../../common/Button/Button";
 
@@ -18,13 +18,16 @@ function Project(props: propsType) {
 
     return (
         <div className={style.project}>
-            <div className={style.projectsImage} style={props.style}>
-                <a href={props.link}><Button title={'look'}/> </a>
-            </div>
+            <a href={props.link}>
+                <div className={style.projectsImage} style={props.style}>
+                    <Button title={'look'}/>
+                </div>
+            </a>
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle}>{props.title}</h3>
                 <span className={style.description}>{props.description}</span>
             </div>
+
         </div>
     )
 }

@@ -19,13 +19,17 @@ function Main(props: PropsType) {
 
     return (
         <div className={style.mainBlock} ref={props.mainRef}>
-            <div className={styleContainer.container}>
+            <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.text}>
                     <span className={style.subTitle}>Hi there</span>
-                    <h1 className={style.homeArea}>I am <br/>
-                        <span className={style.name}>Andrei Kulik</span>
-                    </h1>
-                    <p>
+                    <p className={style.homeArea}>
+                        I am
+                        <div>
+                            <span className={style.name}>Andrei </span>
+                            <span className={style.surName}>Kulik</span>
+                        </div>
+                    </p>
+                    <h1>
                         {count ? (
                             <Typist avgTypingDelay={100} onTypingDone={() => setCount(0)}>
                                 <span>A Frontend developer</span>
@@ -34,7 +38,7 @@ function Main(props: PropsType) {
                         ) : (
                             ""
                         )}
-                    </p>
+                    </h1>
                 </div>
                 <div className={style.photo}></div>
             </div>

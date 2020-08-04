@@ -4,7 +4,6 @@ import styleContainer from '../common/styles/Container.module.css'
 import Button from "../common/Button/Button";
 import Title from "../common/Title/Title";
 import {contactFormAPI} from "../api/Contactform";
-import axios from "axios";
 
 
 class ContactForm extends React.Component {
@@ -21,6 +20,7 @@ class ContactForm extends React.Component {
     onChange(e: any) {
         this.setState({
             [e.target.name]: e.target.value
+
         })
     }
 
@@ -33,9 +33,10 @@ class ContactForm extends React.Component {
         // @ts-ignore
         let message = this.state.message
         // etc
-       contactFormAPI.postInfo(name,contacts,message).then(() => {
-           alert('Send message')
-       })
+        contactFormAPI.postInfo(name, contacts, message).then(() => {
+            alert('Send message')
+        })
+        e.target.reset();
     }
 
 
@@ -46,7 +47,7 @@ class ContactForm extends React.Component {
                 <div className={`${styleContainer.container} ${style.contactFormContainer}`}>
                     <Title title={'Contact'}/>
                     <form onSubmit={this.onSubmit.bind(this)}>
-                        <input type="text" placeholder={'Name'} name={'name'} onChange={this.onChange.bind(this)} />
+                        <input type="text" placeholder={'Name'} name={'name'} onChange={this.onChange.bind(this)}/>
                         <input type="email" placeholder={'E-mail'} name={'contacts'}
                                onChange={this.onChange.bind(this)}/>
                         <textarea placeholder={'please write what you want'} name={'message'}

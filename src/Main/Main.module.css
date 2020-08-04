@@ -3,60 +3,93 @@
     background-color: #111;
     width: 100%;
 }
+
+.mainBlock .container {
+    flex-wrap: wrap;
+}
+
 .homeArea {
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 34px;
     font: 700 40px/1.2 'Josefin Sans', sans-serif;
 }
-.name {
+
+.name, .surName {
     font-size: 50px;
     position: relative;
     display: inline-block;
+    margin: 0 5px;
 }
-.name::after {
+
+.name::after, .surName:after {
     content: "";
     position: absolute;
-    left: 0;
-    right: 0;
     bottom: 0;
     height: 20px;
-    width: 100%;
     background: #4e93e6;
 }
+
+.name::after {
+    right: -15px;
+    left: 0;
+}
+
+.surName::after {
+    left: -15px;
+    right: 0;
+}
+
 .text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 p {
     color: white
 }
+
 p span {
     color: white;
 }
+
+h1 {
+    color: #fff;
+    font:400 27px/1.8 'Poppins', sans-serif;
+}
+
 .subTitle {
     font-size: 16px;
     color: #fff;
     font: 400 14px/1.8 'Poppins', sans-serif;
 }
+
 .photo {
     width: 300px;
     height: 400px;
     background-color: black;
 }
 
-/*@media (max-width: 1078px) {*/
-/*    .mainBlock .container {*/
-/*        justify-content: center;*/
-/*    }*/
-/*}*/
+@media (max-width: 385px) {
+    .name::after {
+        right: 0;
+        left: 0;
+
+    }
+
+    .surName::after {
+        left: 0;
+        right: 0;
+    }
+}
 
 @media (max-width: 425px) {
     .mainBlock {
         height: 100%;
         padding: 100px 0;
     }
+
     .photo {
         margin: 0 auto;
     }
@@ -68,6 +101,7 @@ p span {
         align-items: flex-start;
 
     }
+
     h1 {
         white-space: nowrap;
     }

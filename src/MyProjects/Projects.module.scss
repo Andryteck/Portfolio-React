@@ -2,9 +2,11 @@
   min-height: 100vh;
   background-color: #111;
   width: 100%;
-  @media (max-width: 425px) {
+  @media (max-width: 1162px) {
     height: 100%;
+    padding-bottom: 60px;
   }
+
 
   .projectsContainer {
     justify-content: flex-start;
