@@ -7,29 +7,20 @@ import Projects from "./MyProjects/Projects";
 import RemoteJob from "./RemoteJob/RemoteJob";
 import ContactForm from "./ContactForm/ContactForm";
 import Footer from "./Footer/Footer";
-import {HashRouter} from "react-router-dom";
 
 const scrollToRef = (ref: any) => window.scrollTo({behavior: 'smooth', top: ref.current.offsetTop})
 const useMountEffect = (fun: any) => useEffect(fun)
 
 
 function App() {
-// const [position, setPosition] = useState('')
-//     const scrollToRef = (ref: any) => window.scrollTo({behavior: 'smooth', top: ref.current.offsetTop})
-//     const useMountEffect = (fun: any) => useEffect(fun)
-
     const skillsRef = useRef(null)
     const mainRef = useRef(null)
     const projectsRef = useRef(null)
     const contactsRef = useRef(null)
-//     useMountEffect(() => scrollToRef(myRef))
-//     const myRef1 = useRef(null)
-//     useMountEffect(() => scrollToRef(myRef1))
 
 
 
     return (
-        //<HashRouter>
         <div className="App">
             <Header skills={{skillsRef: skillsRef, scrollToRef: scrollToRef}}
                     main={{mainRef: mainRef, scrollToRef: scrollToRef}}
@@ -42,7 +33,6 @@ function App() {
             <ContactForm/>
             <Footer contactsRef={contactsRef}/>
         </div>
-        //</HashRouter>
     );
 }
 

@@ -2,6 +2,7 @@
     height: 100vh;
     background-color: #111;
     width: 100%;
+    position: relative;
 }
 
 .mainBlock .container {
@@ -13,6 +14,7 @@
     letter-spacing: 1px;
     margin-bottom: 34px;
     font: 700 40px/1.2 'Josefin Sans', sans-serif;
+
 }
 
 .name, .surName {
@@ -20,6 +22,7 @@
     position: relative;
     display: inline-block;
     margin: 0 5px;
+
 }
 
 .name::after, .surName:after {
@@ -44,6 +47,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 100;
 }
 
 p {

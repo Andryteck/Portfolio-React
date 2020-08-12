@@ -34,7 +34,7 @@ function Projects(props: PropsType) {
             color: 'blue',
             backgroundImage: 'url(' + socialNetwork + ')'
         },
-        description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM FOR TEST: login: Andry_teck@mail.ru password: 772316',
         link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }, {
         title: 'Todolist', action: redirectToTodolist,
@@ -44,12 +44,12 @@ function Projects(props: PropsType) {
         }, description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
         link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }, {
-        title: 'New', action: redirectToTodolist,
+        title: 'SINGOLO', action: redirectToTodolist,
         social: {
             color: 'blue',
             backgroundImage: 'url(' + singolo + ')'
         },
-        description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        description: 'HTML, CSS, NATIVE JS, SASS',
         link: "https://singolo-kulik.netlify.app/"
     }
     ]
