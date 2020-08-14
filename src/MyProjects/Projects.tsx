@@ -34,14 +34,14 @@ function Projects(props: PropsType) {
             color: 'blue',
             backgroundImage: 'url(' + socialNetwork + ')'
         },
-        description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM FOR TEST: login: Andry_teck@mail.ru password: 772316',
+        description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM',
         link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }, {
         title: 'Todolist', action: redirectToTodolist,
         social: {
             color: 'blue',
             backgroundImage: 'url(' + socialNetwork + ')'
-        }, description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK',
         link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }, {
         title: 'SINGOLO', action: redirectToTodolist,

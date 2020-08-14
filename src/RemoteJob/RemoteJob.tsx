@@ -12,7 +12,7 @@ function RemoteJob() {
             <div className={styleTitle.moduleHeader}>
                 <Title title={'I am available for Freelance'}/>
             </div>
-        <Button title={'Hire me'}/>
+            <a href="https://t.me/Andrew_kulik2"><Button title={'Hire me'}/></a>
         </div>
     </div>
     )

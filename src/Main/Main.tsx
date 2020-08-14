@@ -3,18 +3,21 @@ import style from './Main.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import Typist from 'react-typist';
 import {MyParticles} from "../common/Particles/MyParticles";
-// import ava from ''
-
-
+import avaImg from '../assets/image/ava.jpg'
 
 
 type PropsType = {
     mainRef: any
 }
 
-// const ava = {
-//     backgroundImage: 'url(' + ava + ')',
-// }
+const ava = {
+    backgroundImage: 'url(' + avaImg + ')',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    zIndex: 100,
+    opacity: 0.8,
+    border: '3px solid #4e93e6'
+}
 
 function Main(props: PropsType) {
     const [count, setCount] = useState<number>(1);
@@ -25,7 +28,7 @@ function Main(props: PropsType) {
     }, [count]);
     return (
         <div className={style.mainBlock} ref={props.mainRef}>
-          <MyParticles/>
+            <MyParticles/>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.text}>
                     <span className={style.subTitle}>Hi there</span>
@@ -47,7 +50,7 @@ function Main(props: PropsType) {
                         )}
                     </h1>
                 </div>
-                <div className={style.photo}></div>
+                <div className={style.photo} style={ava}></div>
             </div>
         </div>
     );

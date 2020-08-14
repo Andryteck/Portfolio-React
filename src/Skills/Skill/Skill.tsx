@@ -4,7 +4,7 @@ import styleContainer from '../common/styles/Container.module.css'
 
 type propsType = {
     title: string
-    description: string
+    description: any
     style?: {
         color: string,
         backgroundImage: string
