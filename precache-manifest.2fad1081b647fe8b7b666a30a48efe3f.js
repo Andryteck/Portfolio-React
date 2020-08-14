@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1e63825999880a7d839e8e3f679b6da",
+    "revision": "8937bebed0e48190d18f462cfc54f2bc",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "10b00f5408bb82fefd47",
-    "url": "/portfolio-react/static/css/main.728acd64.chunk.css"
+    "revision": "577944c839de4dc6c37e",
+    "url": "/portfolio-react/static/css/main.2e5e6cbf.chunk.css"
   },
   {
-    "revision": "124976794f20f87ee83a",
-    "url": "/portfolio-react/static/js/2.62567891.chunk.js"
+    "revision": "e8bd276bed6311b086f9",
+    "url": "/portfolio-react/static/js/2.38b08248.chunk.js"
   },
   {
     "revision": "229313a91dfc1a4229b4758368bd8914",
-    "url": "/portfolio-react/static/js/2.62567891.chunk.js.LICENSE.txt"
+    "url": "/portfolio-react/static/js/2.38b08248.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10b00f5408bb82fefd47",
-    "url": "/portfolio-react/static/js/main.b5431ea0.chunk.js"
+    "revision": "577944c839de4dc6c37e",
+    "url": "/portfolio-react/static/js/main.a15b232e.chunk.js"
   },
   {
     "revision": "2f26d0aed242c262185b",
@@ -32,8 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/SocialNetworkProject.b5dac959.png"
   },
   {
+    "revision": "b4e06b789f7438ca91365d3659e63fe7",
+    "url": "/portfolio-react/static/media/ava.b4e06b78.jpg"
+  },
+  {
     "revision": "c26a73b45b9a801864f13edeb0aa2cfb",
     "url": "/portfolio-react/static/media/css.c26a73b4.png"
+  },
+  {
+    "revision": "76d344f08412543c74ccd1fb2493d607",
+    "url": "/portfolio-react/static/media/git.76d344f0.svg"
   },
   {
     "revision": "f2282f94c041c37ef4db028e428e41c1",
