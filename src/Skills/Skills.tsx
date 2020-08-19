@@ -51,7 +51,7 @@ function Skills(props: PropsType) {
                            description={'I made 2 projects on native JS. I can talk about Promises, Event loop, Closures, Pure function and other'}
                            style={js}/>
                     <Skill title={'Typescript'}
-                           description={'I made 4 projects. I can talk about Types, Generics, Enums и другое'}
+                           description={'I made 4 projects. I can talk about Types, Generics, Enums and other'}
                            style={typescript}/>
                     <Skill title={'HTML'}
                            description={'I made a lot of projects. I can talk about Semantics, Blocks and Inline elements, Entities and other'}
