@@ -48,22 +48,22 @@ function Skills(props: PropsType) {
                 </div>
                 <div className={style.skills}>
                     <Skill title={'Javascript'}
-                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           description={'I made 2 projects on native JS. I can talk about Promises, Event loop, Closures, Pure function and other'}
                            style={js}/>
                     <Skill title={'Typescript'}
-                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           description={'I made 4 projects. I can talk about Types, Generics, Enums и другое'}
                            style={typescript}/>
                     <Skill title={'HTML'}
-                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           description={'I made a lot of projects. I can talk about Semantics, Blocks and Inline elements, Entities and other'}
                            style={html}/>
                     <Skill title={'CSS'}
-                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           description={'I made a lot of projects. I can talk about Flex, Grid, Adaptive mark-up and other'}
                            style={css}/>
                     <Skill title={'REACT'}
-                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           description={'I made 4 projects. I can talk about Components Life Circle, Hooks, Pure Component, Props and other'}
                            style={react}/>
                     <Skill title={'REDUX'}
-                           description={'lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla lorem ipsum bla bla'}
+                           description={'I made 4 projects. I can talk about Reducer, Thunk, Saga, Action, Store and other'}
                            style={redux}/>
                 </div>
             </div>

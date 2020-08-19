@@ -1,4 +1,3 @@
-import style from "../../MyProjects/Projects.module.scss";
 import styleTitle from './Title.module.scss'
 import React from "react";
 

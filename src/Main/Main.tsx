@@ -15,7 +15,6 @@ const ava = {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     zIndex: 100,
-    opacity: 0.8,
     border: '3px solid #4e93e6'
 }
 
@@ -41,9 +40,9 @@ function Main(props: PropsType) {
                     </p>
                     <h1>
                         {count ? (
-                            <Typist avgTypingDelay={100} onTypingDone={() => setCount(0)}>
+                            <Typist avgTypingDelay={150} onTypingDone={() => setCount(0)}>
                                 <span>A Frontend developer</span>
-                                <Typist.Backspace count={18} delay={200}/>
+                                <Typist.Backspace count={18} delay={1200}/>
                             </Typist>
                         ) : (
                             ""

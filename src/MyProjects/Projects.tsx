@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './Projects.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
-import styleTitle from '../common/Title/Title.module.scss'
 import Project from "./Project/Project";
 import Title from '../common/Title/Title';
 import socialNetwork from '../assets/image/SocialNetworkProject.png';
@@ -26,7 +25,7 @@ function Projects(props: PropsType) {
 
     }
     const redirectToTodolist = () => {
-        console.log('by')
+
     }
     const state = [{
         title: 'Social Network', action: redirectToSocialNetwork,
@@ -34,7 +33,7 @@ function Projects(props: PropsType) {
             color: 'blue',
             backgroundImage: 'url(' + socialNetwork + ')'
         },
-        description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM',
+        description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM, AXIOS',
         link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }, {
         title: 'Todolist', action: redirectToTodolist,
@@ -51,7 +50,8 @@ function Projects(props: PropsType) {
         },
         description: 'HTML, CSS, NATIVE JS, SASS',
         link: "https://singolo-kulik.netlify.app/"
-    }
+    },
+
     ]
     return (
         <div className={style.projectsBlock} ref={props.projectsRef}>

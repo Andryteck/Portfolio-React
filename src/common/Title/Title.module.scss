@@ -1,5 +1,5 @@
 .moduleHeader {
-  margin: 50px auto 10px;
+  margin: 30px auto 10px;
 
   .title {
     position: relative;
@@ -10,14 +10,16 @@
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.2;
     letter-spacing: 5px;
-
+    @media (max-width: 837px) {
+      margin: 20px auto 10px;
+    }
   }
 
   .moduleLine {
     background: #4e93e6;
     width: 55px;
     height: 1px;
-    margin: 30px auto;
+    margin: 10px auto;
   }
 }
 
