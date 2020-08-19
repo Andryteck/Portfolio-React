@@ -5,6 +5,7 @@ import Project from "./Project/Project";
 import Title from '../common/Title/Title';
 import socialNetwork from '../assets/image/SocialNetworkProject.png';
 import singolo from '../assets/image/singolo.jpg';
+import Todolist from '../assets/image/Todolist.png';
 
 
 type PropsType = {
@@ -39,8 +40,8 @@ function Projects(props: PropsType) {
         title: 'Todolist', action: redirectToTodolist,
         social: {
             color: 'blue',
-            backgroundImage: 'url(' + socialNetwork + ')'
-        }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK',
+            backgroundImage: 'url(' + Todolist + ')'
+        }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK, AXIOS',
         link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
     }, {
         title: 'SINGOLO', action: redirectToTodolist,

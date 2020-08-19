@@ -81,9 +81,11 @@ h1 {
     .name::after {
         right: 0;
         left: 0;
-
     }
-
+    .photo {
+        width: 300px;
+        height: 400px;
+    }
     .surName::after {
         left: 0;
         right: 0;
