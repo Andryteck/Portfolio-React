@@ -42,7 +42,7 @@ function Projects(props: PropsType) {
             color: 'blue',
             backgroundImage: 'url(' + Todolist + ')'
         }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK, AXIOS',
-        link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
+        link: "https://andryteck.github.io/Todolist/"
     }, {
         title: 'SINGOLO', action: redirectToTodolist,
         social: {
