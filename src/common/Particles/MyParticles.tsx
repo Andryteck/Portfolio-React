@@ -39,7 +39,7 @@ export const MyParticles = () => {
                             },
                             repulse: {
                                 distance: 200,
-                                duration: 0.4,
+                                duration: 0.8,
                             },
                         },
                     },
@@ -62,7 +62,7 @@ export const MyParticles = () => {
                             enable: true,
                             outMode: "bounce",
                             random: false,
-                            speed: 6,
+                            speed: 5,
                             straight: false,
                         },
                         number: {

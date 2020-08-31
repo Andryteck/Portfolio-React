@@ -1,6 +1,6 @@
 import React, {FocusEventHandler, useState} from 'react';
 import style from './Project.module.scss'
-import Button from "../../common/Button/Button";
+import ProjectButton from "../../common/Buttons/ProjectButton";
 
 type propsType = {
     title: string
@@ -20,7 +20,7 @@ function Project(props: propsType) {
         <div className={style.project}>
             <a href={props.link}>
                 <div className={style.projectsImage} style={props.style}>
-                    <Button title={'look'}/>
+                    <ProjectButton title={'look'}/>
                 </div>
             </a>
             <div className={style.projectInfo}>

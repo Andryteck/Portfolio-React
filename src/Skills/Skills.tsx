@@ -10,7 +10,8 @@ import Html from "../assets/image/html.png";
 import Css from "../assets/image/css.png";
 import ReactLogo from "../assets/image/react.png";
 import Redux from "../assets/image/redux.jpg";
-
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 type PropsType = {
     skillsRef: any
@@ -46,6 +47,7 @@ function Skills(props: PropsType) {
                 <div className={styleTitle.moduleHeader}>
                     <Title title={'Skills'}/>
                 </div>
+                <Fade right>
                 <div className={style.skills}>
                     <Skill title={'Javascript'}
                            description={'I made 2 projects on native JS. I can talk about Promises, Event loop, Closures, Pure function and other'}
@@ -66,6 +68,7 @@ function Skills(props: PropsType) {
                            description={'I made 4 projects. I can talk about Reducer, Thunk, Saga, Action, Store and other'}
                            style={redux}/>
                 </div>
+                </Fade>
             </div>
         </div>
 

@@ -70,11 +70,24 @@ h1 {
     color: #fff;
     font: 400 14px/1.8 'Poppins', sans-serif;
 }
-
+.photoWrapper {
+    z-index: 1;
+    position: relative;
+}
 .photo {
     width: 350px;
     height: 450px;
     background-color: black;
+}
+.photo:before {
+   content: '';
+    position: absolute;
+    height: 110%;
+    width: 105%;
+    border: 5px solid #4e93e6;
+    left: 15px;
+    top: -15px;
+    z-index: -1;
 }
 
 @media (max-width: 385px) {
@@ -83,7 +96,7 @@ h1 {
         left: 0;
     }
     .photo {
-        width: 300px;
+        width: 275px;
         height: 400px;
     }
     .surName::after {

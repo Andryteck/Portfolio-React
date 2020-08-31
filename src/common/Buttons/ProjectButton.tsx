@@ -1,16 +1,16 @@
 import React from 'react';
-import style from './Button.module.css'
+import style from './ProjectButton.module.scss'
 
 type ButtonType = {
     title: string
     link?: string
 }
 
-function Button(props: ButtonType) {
+function ProjectButton(props: ButtonType) {
     return (
             <button className={style.button}>{props.title}</button>
     )
 }
 
-export default Button
+export default ProjectButton
 

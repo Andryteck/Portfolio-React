@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import style from './ContactForm.module.css'
 import styleContainer from '../common/styles/Container.module.css'
-import Button from "../common/Button/Button";
 import Title from "../common/Title/Title";
 import {contactFormAPI} from "../api/Contactform";
-
+import RegularButton from "../common/Buttons/RegularButton";
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 class ContactForm extends React.Component {
     constructor(props: any) {
@@ -46,15 +47,16 @@ class ContactForm extends React.Component {
 
                 <div className={`${styleContainer.container} ${style.contactFormContainer}`}>
                     <Title title={'Contact'}/>
+                    <Fade left>
                     <form onSubmit={this.onSubmit.bind(this)}>
                         <input type="text" placeholder={'Name'} name={'name'} onChange={this.onChange.bind(this)}/>
                         <input type="email" placeholder={'E-mail'} name={'contacts'}
                                onChange={this.onChange.bind(this)}/>
                         <textarea placeholder={'please write what you want'} name={'message'}
                                   onChange={this.onChange.bind(this)}></textarea>
-                        <Button title={'Send'}/>
+                        <RegularButton title={'Send'}/>
                     </form>
-
+                    </Fade>
                 </div>
             </div>
 

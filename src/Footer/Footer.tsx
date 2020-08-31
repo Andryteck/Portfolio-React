@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import FooterInst from "../assets/image/87390.png";
 import FooterTwit from "../assets/image/twitter.png";
@@ -15,27 +15,21 @@ type PropsType = {
 
 function Footer(props: PropsType) {
     let footerSocialNetworksTelegram = {
-        color: 'blue',
         backgroundImage: 'url(' + FooterTelegram + ')'
     }
     let footerSocialNetworksInstagram = {
-        color: 'blue',
         backgroundImage: 'url(' + FooterInst + ')'
     }
     let footerSocialNetworksTwitter = {
-        color: 'blue',
         backgroundImage: 'url(' + FooterTwit + ')'
     }
     let footerSocialNetworksFacebook = {
-        color: 'blue',
         backgroundImage: 'url(' + FooterFace + ')'
     }
     let footerSocialNetworksVk = {
-        color: 'blue',
         backgroundImage: 'url(' + FooterVk + ')'
     }
     let footerSocialNetworksGithub = {
-        color: 'blue',
         backgroundImage: 'url(' + FooterGit + ')'
     }
 
@@ -54,7 +48,6 @@ function Footer(props: PropsType) {
                        style={footerSocialNetworksVk}></a>
                     <a href={'./#'} className={style.socialNetwork} style={footerSocialNetworksTwitter}></a>
                     <a href={'./#'} className={style.socialNetwork} style={footerSocialNetworksFacebook}></a>
-
                 </div>
                 <span className={style.copyright}>© 2020, All Rights Reserved.</span>
             </div>

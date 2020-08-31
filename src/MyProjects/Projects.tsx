@@ -6,6 +6,8 @@ import Title from '../common/Title/Title';
 import socialNetwork from '../assets/image/SocialNetworkProject.png';
 import singolo from '../assets/image/singolo.jpg';
 import Todolist from '../assets/image/Todolist.png';
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 
 type PropsType = {
@@ -58,6 +60,7 @@ function Projects(props: PropsType) {
         <div className={style.projectsBlock} ref={props.projectsRef}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title title={'Projects'}/>
+                <Fade left>
                 <div className={style.projects}>
                     {
                         state.map(i => {
@@ -69,6 +72,7 @@ function Projects(props: PropsType) {
                     {/*<Project title={'Project'} description={'lorem ipsum bla bla bal'} style={social}/>*/}
                     {/*<Project title={'Project'} description={'lorem ipsum bla bla bal'}/>*/}
                 </div>
+                    </Fade>
             </div>
         </div>
     )
