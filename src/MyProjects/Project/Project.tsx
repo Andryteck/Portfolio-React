@@ -6,7 +6,6 @@ type propsType = {
     title: string
     description: string
     style?: {
-        color: string,
         backgroundImage: string
     }
     social: any

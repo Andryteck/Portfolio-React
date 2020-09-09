@@ -16,13 +16,11 @@
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-position: center;
     position: relative;
 
     &:hover::before {
       position: absolute;
       content: '';
-      //background-color: black;
       top: 0;
       bottom: 0;
       left: 0;

@@ -6,6 +6,7 @@ import Title from '../common/Title/Title';
 import socialNetwork from '../assets/image/SocialNetworkProject.png';
 import singolo from '../assets/image/singolo.jpg';
 import Todolist from '../assets/image/Todolist.png';
+import StamBy from '../assets/image/stamBy.png';
 // @ts-ignore
 import Fade from 'react-reveal/Fade';
 
@@ -33,7 +34,6 @@ function Projects(props: PropsType) {
     const state = [{
         title: 'Social Network', action: redirectToSocialNetwork,
         social: {
-            color: 'blue',
             backgroundImage: 'url(' + socialNetwork + ')'
         },
         description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM, AXIOS',
@@ -41,14 +41,19 @@ function Projects(props: PropsType) {
     }, {
         title: 'Todolist', action: redirectToTodolist,
         social: {
-            color: 'blue',
             backgroundImage: 'url(' + Todolist + ')'
         }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK, AXIOS',
         link: "https://andryteck.github.io/Todolist/"
     }, {
+        title: 'Test task StamBy company',
+        social: {
+            backgroundImage: 'url(' + StamBy + ')'
+        },
+        description: 'REACT, REDUX, AXIOS, PIXEL PERFECT, ADAPTIVE',
+        link: "https://andryteck.github.io/TestByStamBy/"
+    }, {
         title: 'SINGOLO', action: redirectToTodolist,
         social: {
-            color: 'blue',
             backgroundImage: 'url(' + singolo + ')'
         },
         description: 'HTML, CSS, NATIVE JS, SASS',
@@ -61,18 +66,18 @@ function Projects(props: PropsType) {
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title title={'Projects'}/>
                 <Fade left>
-                <div className={style.projects}>
-                    {
-                        state.map(i => {
-                            return <Project style={i.social} title={i.title} description={i.description}
-                                            social={i.social} link={i.link}/>
-                        })
-                    }
-                    {/*<Project style={social} title={'Social Network'} description={'lorem ipsum bla bla bal'}/>*/}
-                    {/*<Project title={'Project'} description={'lorem ipsum bla bla bal'} style={social}/>*/}
-                    {/*<Project title={'Project'} description={'lorem ipsum bla bla bal'}/>*/}
-                </div>
-                    </Fade>
+                    <div className={style.projects}>
+                        {
+                            state.map(i => {
+                                return <Project style={i.social} title={i.title} description={i.description}
+                                                social={i.social} link={i.link}/>
+                            })
+                        }
+                        {/*<Project style={social} title={'Social Network'} description={'lorem ipsum bla bla bal'}/>*/}
+                        {/*<Project title={'Project'} description={'lorem ipsum bla bla bal'} style={social}/>*/}
+                        {/*<Project title={'Project'} description={'lorem ipsum bla bla bal'}/>*/}
+                    </div>
+                </Fade>
             </div>
         </div>
     )

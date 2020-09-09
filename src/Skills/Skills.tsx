@@ -10,6 +10,7 @@ import Html from "../assets/image/html.png";
 import Css from "../assets/image/css.png";
 import ReactLogo from "../assets/image/react.png";
 import Redux from "../assets/image/redux.jpg";
+import Nodejs from "../assets/image/nodejs.png";
 // @ts-ignore
 import Fade from 'react-reveal/Fade';
 
@@ -41,6 +42,7 @@ function Skills(props: PropsType) {
     const css = createObject(Css)
     const react = createObject(ReactLogo)
     const redux = createObject(Redux)
+    const nodejs = createObject(Nodejs)
     return (
         <div className={style.skillsBlock} ref={props.skillsRef}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
@@ -62,11 +64,14 @@ function Skills(props: PropsType) {
                            description={'I made a lot of projects. I can talk about Flex, Grid, Adaptive mark-up and other'}
                            style={css}/>
                     <Skill title={'REACT'}
-                           description={'I made 4 projects. I can talk about Components Life Circle, Hooks, Pure Component, Props and other'}
+                           description={'I made 5 projects. I can talk about Components Life Circle, Hooks, Pure Component, Props and other'}
                            style={react}/>
                     <Skill title={'REDUX'}
                            description={'I made 4 projects. I can talk about Reducer, Thunk, Saga, Action, Store and other'}
                            style={redux}/>
+                    <Skill title={'NODE.JS'}
+                           description={'I made 4 projects. I can talk about Event Loop,I/O operations,“non-blocking” and other'}
+                           style={nodejs}/>
                 </div>
                 </Fade>
             </div>
