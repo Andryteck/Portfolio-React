@@ -11,6 +11,7 @@ import Css from "../assets/image/css.png";
 import ReactLogo from "../assets/image/react.png";
 import Redux from "../assets/image/redux.jpg";
 import Nodejs from "../assets/image/nodejs.png";
+import GraphQL from "../assets/image/GraphQL.png";
 // @ts-ignore
 import Fade from 'react-reveal/Fade';
 
@@ -20,6 +21,7 @@ type PropsType = {
 
 
 function Skills(props: PropsType) {
+
     const createObject = (obj: any) => {
         return {
             color: 'blue',
@@ -28,7 +30,7 @@ function Skills(props: PropsType) {
             height: '45px',
             transform: 'rotate(-45deg)',
             backgroundPosition: 'center',
-            backgroundRepeat: 'repeat',
+            backgroundRepeat: 'noRepeat',
             backgroundSize: 'cover',
             position: 'absolute',
             top: '18px',
@@ -43,6 +45,7 @@ function Skills(props: PropsType) {
     const react = createObject(ReactLogo)
     const redux = createObject(Redux)
     const nodejs = createObject(Nodejs)
+    const graphql = createObject(GraphQL)
     return (
         <div className={style.skillsBlock} ref={props.skillsRef}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
@@ -72,6 +75,9 @@ function Skills(props: PropsType) {
                     <Skill title={'NODE.JS'}
                            description={'I made 4 projects. I can talk about Event Loop,I/O operations,“non-blocking” and other'}
                            style={nodejs}/>
+                    <Skill title={'GRAPHQL'}
+                           description={'I made 2 projects. I can talk about GraphQL schema, Server-side Caching, AST in GraphQL and other'}
+                           style={graphql}/>
                 </div>
                 </Fade>
             </div>

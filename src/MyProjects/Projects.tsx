@@ -7,6 +7,7 @@ import socialNetwork from '../assets/image/SocialNetworkProject.png';
 import singolo from '../assets/image/singolo.jpg';
 import Todolist from '../assets/image/Todolist.png';
 import StamBy from '../assets/image/stamBy.png';
+import cards from '../assets/image/cardsLearn.png';
 // @ts-ignore
 import Fade from 'react-reveal/Fade';
 
@@ -32,33 +33,41 @@ function Projects(props: PropsType) {
 
     }
     const state = [{
-        title: 'Social Network', action: redirectToSocialNetwork,
+        title: 'Cards for learning', action: redirectToSocialNetwork,
         social: {
-            backgroundImage: 'url(' + socialNetwork + ')'
+            backgroundImage: 'url(' + cards + ')'
         },
-        description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM, AXIOS',
-        link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
-    }, {
-        title: 'Todolist', action: redirectToTodolist,
-        social: {
-            backgroundImage: 'url(' + Todolist + ')'
-        }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK, AXIOS',
-        link: "https://andryteck.github.io/Todolist/"
-    }, {
-        title: 'Test task StamBy company',
-        social: {
-            backgroundImage: 'url(' + StamBy + ')'
-        },
-        description: 'REACT, REDUX, AXIOS, PIXEL PERFECT, ADAPTIVE',
-        link: "https://andryteck.github.io/TestByStamBy/"
-    }, {
-        title: 'SINGOLO', action: redirectToTodolist,
-        social: {
-            backgroundImage: 'url(' + singolo + ')'
-        },
-        description: 'HTML, CSS, NATIVE JS, SASS',
-        link: "https://singolo-kulik.netlify.app/"
+        description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM, AXIOS, MATERIAL-UI, GIT TEAM WORK',
+        link: "https://yarovenko-dmitry.github.io/REACT_TS_project_Inc_Fr/"
     },
+        {
+            title: 'Social Network', action: redirectToSocialNetwork,
+            social: {
+                backgroundImage: 'url(' + socialNetwork + ')'
+            },
+            description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM, AXIOS',
+            link: "https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/login"
+        }, {
+            title: 'Todolist', action: redirectToTodolist,
+            social: {
+                backgroundImage: 'url(' + Todolist + ')'
+            }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK, AXIOS',
+            link: "https://andryteck.github.io/Todolist/"
+        }, {
+            title: 'Test task StamBy company',
+            social: {
+                backgroundImage: 'url(' + StamBy + ')'
+            },
+            description: 'REACT, REDUX, AXIOS, PIXEL PERFECT, ADAPTIVE',
+            link: "https://andryteck.github.io/TestByStamBy/"
+        }, {
+            title: 'SINGOLO', action: redirectToTodolist,
+            social: {
+                backgroundImage: 'url(' + singolo + ')'
+            },
+            description: 'HTML, CSS, NATIVE JS, SASS',
+            link: "https://singolo-kulik.netlify.app/"
+        },
 
     ]
     return (
