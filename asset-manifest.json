@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.3ea32a71.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.ad7e0196.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.ad7e0196.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.87804cbc.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.19d59170.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.19d59170.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.a4de92d3.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.a4de92d3.js.map",
-    "static/js/2.ea89ae17.chunk.js": "/portfolio-react/static/js/2.ea89ae17.chunk.js",
-    "static/js/2.ea89ae17.chunk.js.map": "/portfolio-react/static/js/2.ea89ae17.chunk.js.map",
+    "static/js/2.f4d8c117.chunk.js": "/portfolio-react/static/js/2.f4d8c117.chunk.js",
+    "static/js/2.f4d8c117.chunk.js.map": "/portfolio-react/static/js/2.f4d8c117.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.6282747b7d77deff94c6f667a7ef3def.js": "/portfolio-react/precache-manifest.6282747b7d77deff94c6f667a7ef3def.js",
+    "precache-manifest.d72166c097c845f71a3fa6661118b990.js": "/portfolio-react/precache-manifest.d72166c097c845f71a3fa6661118b990.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.3ea32a71.chunk.css.map": "/portfolio-react/static/css/main.3ea32a71.chunk.css.map",
-    "static/js/2.ea89ae17.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.ea89ae17.chunk.js.LICENSE.txt",
+    "static/css/main.87804cbc.chunk.css.map": "/portfolio-react/static/css/main.87804cbc.chunk.css.map",
+    "static/js/2.f4d8c117.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.f4d8c117.chunk.js.LICENSE.txt",
+    "static/media/GraphQL.png": "/portfolio-react/static/media/GraphQL.820a85a8.png",
     "static/media/JavaScript-logo.png": "/portfolio-react/static/media/JavaScript-logo.0cded3a3.png",
     "static/media/SocialNetworkProject.png": "/portfolio-react/static/media/SocialNetworkProject.b5dac959.png",
     "static/media/Todolist.png": "/portfolio-react/static/media/Todolist.31245368.png",
     "static/media/ava.jpg": "/portfolio-react/static/media/ava.b4e06b78.jpg",
+    "static/media/cardsLearn.png": "/portfolio-react/static/media/cardsLearn.87d83d98.png",
     "static/media/css.png": "/portfolio-react/static/media/css.c26a73b4.png",
     "static/media/git.svg": "/portfolio-react/static/media/git.76d344f0.svg",
     "static/media/html.png": "/portfolio-react/static/media/html.f2282f94.png",
@@ -29,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4de92d3.js",
-    "static/js/2.ea89ae17.chunk.js",
-    "static/css/main.3ea32a71.chunk.css",
-    "static/js/main.ad7e0196.chunk.js"
+    "static/js/2.f4d8c117.chunk.js",
+    "static/css/main.87804cbc.chunk.css",
+    "static/js/main.19d59170.chunk.js"
   ]
 }
