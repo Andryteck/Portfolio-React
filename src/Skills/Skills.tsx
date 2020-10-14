@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import style from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./Skill/Skill";

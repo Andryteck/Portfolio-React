@@ -38,7 +38,7 @@ function Projects(props: PropsType) {
             backgroundImage: 'url(' + cards + ')'
         },
         description: 'REACT, REDUX, TYPESCRIPT, REDUX-FORM, AXIOS, MATERIAL-UI, GIT TEAM WORK',
-        link: "https://yarovenko-dmitry.github.io/REACT_TS_project_Inc_Fr/"
+        link: "https://yarovenko-dmitry.github.io/REACT_TS_project_Inc_Fr/login"
     },
         {
             title: 'Social Network', action: redirectToSocialNetwork,
