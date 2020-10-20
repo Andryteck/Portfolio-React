@@ -22,7 +22,6 @@ function Main(props: PropsType) {
     const [count, setCount] = useState<number>(1);
 
     useEffect(() => {
-        // document.title = `You clicked ${count} times`;
         setCount(1);
     }, [count]);
     return (

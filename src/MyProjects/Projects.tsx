@@ -51,7 +51,7 @@ function Projects(props: PropsType) {
             title: 'Todolist', action: redirectToTodolist,
             social: {
                 backgroundImage: 'url(' + Todolist + ')'
-            }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK, AXIOS',
+            }, description: 'REACT, TYPESCRIPT, REDUX, MATERIAL UI, FORMIK, AXIOS, REDUX-TOOLKIT, STORYBOOK',
             link: "https://andryteck.github.io/Todolist/"
         }, {
             title: 'Test task StamBy company',
